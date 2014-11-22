@@ -6,11 +6,11 @@ var options = {
   hinting: false,
   tests: false,
   minifyJS: {
-    enabled: false,
-    options: {
-        mangle: false,
-        compress: false
-      }
+    enabled: false
+  },
+  es3Safe: false,
+  minifyCSS: {
+    enabled: false
   }
 }; // TODO: delete in production
 
