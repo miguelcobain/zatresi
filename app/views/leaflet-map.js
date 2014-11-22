@@ -31,3 +31,7 @@ export default EmberLeaflet.MapView.extend(
     }.on('willDestroyElement')
   }
 );
+
+// map.featureLayer.on('click', function(e) {
+//         map.panTo(e.layer.getLatLng());
+//     });

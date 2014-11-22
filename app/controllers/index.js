@@ -16,8 +16,6 @@ export default Ember.ArrayController.extend({
     highlightKlub: function(klubId) {
       var item = this.findBy('id', klubId);
       this.set('hoveredKlub', item);
-      // It should them autotrigger the display of the class on the list
-      // TODO: set all the other to false
       // Later: it should also update the marker (highlight)
     },
     unHighlightKlub: function() {
