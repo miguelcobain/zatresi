@@ -28,6 +28,7 @@ export default EmberLeaflet.MapView.extend(
     }.on('didInsertElement'),
     unsubscribeFromKlubHovered: function () {
       window.pubsub.unsubscribe('klub.hovered');
+      window.pubsub.unsubscribe('klub.unhovered');
     }.on('willDestroyElement')
   }
 );
