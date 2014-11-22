@@ -1,5 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  classNames: ['klub-card']
+  classNames: ['klub-card'],
+  classNameBindings: ['isHovered:klub-card--hover'],
+  isHovered: true
 });
